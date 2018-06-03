@@ -1,0 +1,243 @@
+body{font-family:'Segoe UI Light'; }
+/*container class*/
+.container{
+  width: 1170px;
+  height:inherit;
+  overflow: hidden;
+  margin: auto;
+}
+/*class of nav to make it fixed using [css-jQuery]*/
+.fixed{
+  position: fixed;
+  z-index: 1;
+  top:0;
+  padding: 0px;
+  height: auto;
+  background-color: rgba(101, 196, 200,0.7);
+}
+/*first div in the page*/
+.logo{overflow: hidden;padding: 10px;}
+.logo .container .right{float: right;}
+.logo .container .right span{margin: 0px 10px;}
+.logo .container .right span p{display: inline-block;margin-left: 5px; }
+.logo .container .right span i{color: rgb(101, 196, 200);}
+/*start of nav*/
+nav {
+  overflow: hidden;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(101, 196, 200);
+}
+nav .container section{float:left;padding: 10px;}
+nav .container section a{
+  font-family: Segoe UI Light;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+nav .container span{
+  float: right;
+  padding-top: 25px;
+}
+nav .container span a{
+  padding: 5px 10px ;
+  text-decoration: none;
+  color: white;
+  font-family: Segoe UI Light;
+}
+nav .container span a:hover{
+  color: #65c4c8;
+  background-color: white;
+}
+/*end of nav*/
+
+
+
+/*start reservices*/
+.reservices{
+    width: 100%;
+    height: auto;
+   
+}
+/*start slider*/
+.slider1{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-image:url("../images/header_02.jpg");
+    background-size: cover;
+}
+.slide{
+    color:#fff;
+    text-shadow:3px 3px 7px #65c4c8,
+               -3px -3px 7px #65c4c8;
+    text-align: center;
+    margin-top:140px; 
+    font-size:100px;
+    font-family: Segoe UI Light;
+}
+/*end slider*/
+
+/*start text*/
+.my_text{
+    height: 300px;
+    width: 100%;
+    
+    margin-bottom: 100px;
+}
+.re{
+    font-family: Segoe UI Light;
+    font-size:50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    color:#65c4c8; 
+}
+.text{
+    text-align: center;
+    font-family: Segoe UI Light;
+    font-size: 30px;
+}
+/*end text*/
+
+/*start photos*/
+
+.photos_left,.photos_right{
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+   }
+.pic_left,.pic_right{
+    width: 40%;
+    height: 80%;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: 3px solid #65c4c8;
+}
+.pic_left{
+    margin-left: 30px; 
+}
+.pic_right{
+    margin-right: 30px;
+}
+.pic_left{
+    float: left;
+}
+.pic_right{
+    float: right;
+}
+.text_left{
+    width:45%;
+    float: left;
+    height: max-content;
+    margin: 50px 20px 100px 80px;
+    overflow: hidden;
+}
+.text_left button{
+    color: #65c4c8;
+    border: 1px solid #65c4c8;
+    width: 100px;
+    float: right;
+}
+.text_right{
+    width:45%;
+    float: right;
+    height: max-content;
+    margin: 50px 80px 100px 20px;
+    overflow: hidden;
+
+}
+.text_right button{
+    color: #65c4c8;
+    border: 1px solid #65c4c8;
+    width: 100px;
+    float: left;
+}
+button:hover{
+    color: #fff;
+    background-color: #65c4c8;
+}
+.res{
+    text-align: center;
+    color:#65c4c8;
+    font-family:Segoe UI Light;
+    font-size: 50px;
+}
+.resp{
+    text-align: center;
+    font-family:Segoe UI Light;
+    font-size: 30px;
+}
+
+/*end photos*/
+
+/*end reservices*/
+
+
+
+/*start of footer*/
+footer {
+  background-color:#65c4c8;
+  position:static;
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  padding: 20px;
+}
+footer .container .map{float: left;width:auto;}
+footer .container .map .mapimg{
+  border: 3px solid white;
+}
+footer .container .map h3{font-family: Segoe UI Light;color: #FFF;}
+footer .container .contact{float:right;width:45%;}
+footer .container .contact h3{font-family: Segoe UI Light;color: #FFF;margin-bottom: 20px;}
+footer .container .contact input,textarea,button{
+  display: block;
+  margin: 10px 0px 10px;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  background: none;
+  border:1px solid white;
+  color: white;
+  font-family:'Segoe UI Light';
+}
+::-webkit-input-placeholder{color: white;font-family: Segoe UI Light; }
+footer .container .contact button{
+  display: block;
+  margin: 15px 0px 15px;
+  padding: 10px;
+  height: 50px;
+  background: none;
+  border:1px solid white;
+  color: white;
+  font-family: Segoe UI Light;
+}
+footer .container .contact button:hover{
+  background: white;
+  cursor:pointer;
+  color:#65c4c8;
+}
+footer .container .contact .icons{color: #fff;}
+footer .container .contact .icons .face:hover{color: #46609F;cursor: pointer;}
+footer .container .contact .icons .twi:hover{color: #1DA1F2;cursor: pointer;}
+footer .container .contact .icons .you:hover{color: #E32C28;cursor: pointer;}
+footer .container .contact .icons .gog:hover{color: #DD4E40;cursor: pointer;}
+footer .container .contact .icons .in:hover{color: #cb2026;cursor: pointer;}
+footer .container .contact .icons .face{margin: 5px;}
+footer .container .contact .icons .twi{margin: 5px;}
+footer .container .contact .icons .you{margin: 5px;}
+footer .container .contact .icons .in{margin: 5px;}
+footer .container .contact .icons .gog{margin: 5px;}
+/*end of footer*/
+
+/*start of the last section*/
+.last{overflow: hidden;background: #000;padding: 20px;color: #fff;}
+.last .container .left{float: left;margin-top: 10px;}
+.last .container .right{float: right;}
+.last .container .right span{margin: 0px 10px;}
+.last .container .right span p{display: inline-block;margin-left: 5px; }
+.last .container .right span i{color: rgb(101, 196, 200);}
+
+/*end of the last section*/
