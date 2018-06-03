@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Agaza | Big Room</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/png" href="images/lo.png"/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style1.css"/>
+
+    </head>
+    <body>
+        <section class="logo">
+            <div class="container">
+                <div class="right">
+                    <span>
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <p>Nile Corniche, Cairo, Egypt</p>
+                    </span>
+                    <span>
+                        <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                        <p>+022937652</p>
+                    </span>
+                    <span>
+                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                        <p>agaza@try.org</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!--Start Navbar-->
+        <nav>
+            <div class="container">
+                <section>
+         <a href="../Agaza/home.html"><img src="images/top.png" style="width:150px;height: 50px;"></a>
+       </section>
+         <span>
+           <a class="links" href="../Room1/room1.html">ROOMS</a>
+           <a class="links" href="../events/events.html">EVENTS</a>
+           <a class="links" href="../services/services.html">SERVICES</a>
+           <a class="links" href="../Booking/booking.html">BOOKING</a>
+           <a class="links" href="../about us/about_us.html">ABOUT US</a>
+         </span>
+            </div>  
+        </nav>
+        <!--End Navbar-->
+        <!--Start header-->
+        <header>
+            <div class="big"><h1>Big Rooms</h1></div>
+            <div class="slider">
+                <img src="images/Room46.jpg" alt="s1"/>
+                <img src="images/Room1.jpg" alt="s2"/>
+                <img src="images/Room5.jpg" alt="s3"/>
+            </div>
+            <hr style="width:300px;">
+        </header>
+        <!--End header-->
+        <!--Start Family Room-->
+        <section>
+            <div class="container">
+                <div class="royal">
+                    <div class="royalroom1"></div>
+                    <div class="royalroom2">
+                        <h1>Royal Room</h1>
+                    </div>
+                    <div class="royalroom3">
+                        <h3>These suites offer authentic luxury in a charming.
+                        they are unique in their form, harmoniously integrating architecture that adds a rather
+                        romantic and exceptional touch.Perfect for two guests these suites
+                        also include bathroom with sandstone bathtub and separate water closet.</h3>
+                        <span class="booking"><a href="../Booking/booking.html">Booking Now</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Family Room-->
+        <!--Start Single Room-->
+        <section>
+            <div class="container">
+                <div class="single">
+                    <div class="singleroom1">
+                        
+                    </div>
+                    <div class="singleroom2">
+                        <h3>A small bedroom, and the choice of a shower or bath, ideal for one person.
+                        The walls and windows are decorated with new warm-coloured weaves
+                        while unworked materials give the room typical mountain charm.</h3>
+                        <span class="booking"><a href="../Booking/booking.html">Booking Now</a></span>
+                    </div>
+                    <div class="singleroom3">
+                        <h1>Single Room</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Single Room-->
+        <!--Start Double Room-->
+        <section>
+            <div class="container">
+                <div class="double">
+                    <div class="doubleroom1">
+                    </div>
+                    <div class="doubleroom2">
+                        <h3>These suites offer authentic luxury in a charming.
+                        they are unique in their form, harmoniously integrating architecture that adds a rather
+                        romantic and exceptional touch.Perfect for two guests these suites
+                        also include bathroom with sandstone bathtub and separate water closet.</h3>
+                        <span class="booking"><a href="../Booking/booking.html">Booking Now</a></span>
+                    </div>
+                    <div class="doubleroom3"><h1>Double Room</h1></div>
+                </div>
+            </div>
+        </section>
+        <!--End Double Room-->
+        <!--Start Go To Room2-->
+        <div class="container">
+            <ul class="pagination">
+                <li><a href="../Room2/room2.html">Go To See Our Medium Rooms ❯</a></li>
+            </ul>
+        </div>
+        <!--End Go To-->
+        <!--Start Footer-->
+        <footer>
+            <div class="container">
+              <div class="map">
+                <h3>Find us :</h3>
+                <!-- start of an embedded map -->
+                <div class="mapimg">
+                   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                   <div style='overflow:hidden;height:440px;width:440px;'>
+                   <div id='gmap_canvas' style='height:440px;width:440px;'>
+                   </div>
+                   <div>
+                   <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+                   </div>
+                   <div><small><a href="https://buywebsitetrafficreviews.org/trafficwebsites/">
+                   real traffic source is your most trusted source of top quality and real web traffic
+                   </a></small></div>
+                   <style>
+                   #gmap_canvas img{max-width:none!important;background:none!important}</style>
+                   </div>
+                   <script type='text/javascript'>
+                   function init_map()
+                   {var myOptions = {zoom:15,center:new google.maps.LatLng(30.056365797186047,31.229661492065354)
+                       ,mapTypeId: google.maps.MapTypeId.ROADMAP};
+                   map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                   marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(30.056365797186047,31.229661492065354)});
+                   infowindow = new google.maps.InfoWindow({content:'<strong>Agaza</strong><br>Nile Corniche, Cairo, Egypt<br>'});
+                   google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+                   google.maps.event.addDomListener(window, 'load', init_map);
+                   </script>
+                   <!-- end of  an embedded map -->
+                </div>
+                 <!-- end of map -->
+                </div>
+               <div class="contact">
+                  <h3>Contact Us :</h3>
+                  <form>
+                   <input type="text" placeholder="Full Name">
+                   <input type="text" placeholder="E-mail">
+                   <input type="text" placeholder="Telephone">
+                   <textarea placeholder="Message" style="height:150px ;"></textarea>
+                   <button>SEND</button>
+                   <div class="icons">
+                     <i class="fa fa-facebook fa-2x face" aria-hidden="true"></i>
+             <i class="fa fa-youtube-play fa-2x you" aria-hidden="true"></i>
+             <i class="fa fa-google-plus-official fa-2x gog" aria-hidden="true"></i>
+             <i class="fa fa-twitter fa-2x twi" aria-hidden="true"></i>
+             <i class="fa fa-pinterest-p fa-2x in" aria-hidden="true"></i>
+                   </div>
+                  </form>
+               </div>
+             </div>
+        </footer>
+    <!-- end of footer -->
+    <!-- last section in the page -->
+    <div class="last">
+     <div class="container">
+      <div class="left">
+       <p>Copyright &copy; 2017 AGAZA. All right reserved.
+           <a href="../privacy policy/privacy policy.html" >Privacy Policy</a>
+       </p>
+      </div>   
+      <div class="right">
+          <span>
+           <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+           <p>Nile Corniche, Cairo, Egypt</p>
+          </span>
+          <span>
+           <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+           <p>+022937652</p>
+          </span>
+          <span>
+           <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+           <p>agaza@try.org</p>
+         </span>
+        </div>
+     </div>  
+    </div>
+    <!--End Footer-->
+        <script src="js/jquery-1.12.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
