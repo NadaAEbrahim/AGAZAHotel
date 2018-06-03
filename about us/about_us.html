@@ -1,0 +1,185 @@
+<!DOCTIPE html>
+<html>
+ <head>
+   <title>Agaza | About Us</title>
+   <link rel="icon" type="image/png" href="images/lo.png"/>
+   <link rel="stylesheet" href="css/normalize.css"/>
+   <link rel="stylesheet" href="css/font-awesome.min.css"/>
+   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
+
+ </head>
+ <body>
+   <section class="logo">
+     <div class="container">
+       <div class="right">
+         <span>
+          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+          <p>Nile Corniche, Cairo, Egypt</p>
+         </span>
+         <span>
+          <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+          <p>+022937652</p>
+         </span>
+         <span>
+          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          <p>agaza@try.org</p>
+        </span>
+       </div>
+     </div>
+   </section>
+    <!-- the start of the navbar -->
+   <nav>
+     <div class="container">
+       <section>
+         <a href="../Agaza/home.html"><img src="images/top.png" style="width:150px;height: 50px;"></a>
+       </section>
+         <span>
+           <a class="links" href="../Room1/room1.html">ROOMS</a>
+           <a class="links" href="../events/events.html">EVENTS</a>
+           <a class="links" href="../services/services.html">SERVICES</a>
+           <a class="links" href="../Booking/booking.html">BOOKING</a>
+           <a class="links" href="../about us/about_us.html">ABOUT US</a>
+         </span>
+     </div>
+   </nav>
+  <!-- the end of the navbar -->
+
+  <!-- your work start here -->
+  <section>
+      <div class=about_us>
+          <div class=container>
+     <!--start text--> 
+            <div class=text style="margin-top:20px; ">
+              <h1 class=about>About us</h1>
+            
+              <p class=p>If you want to get away for the holidays, choose our hotel. What differentiates us from others? <br>
+               A lot of things.  . The spacious rooms are decorated with traditional wooden furniture and equipped<br>
+               with free Wi-Fi access, flat-screen TVs and private bathrooms. In our city you can indulge in traditional<br>
+               afternoon tea during the day, catch up with work in the business center and taste delicious food at the best<br>
+               restaurant upon your choice in the evening.</p>
+
+             <p class=p>We welcome you to our hotel as you enlighten our abode with your warmth and smiley nature.<br>
+              We are truly grateful to you for your visit here and hope to have memorable moments throughout<br>
+              your visit.May I take this opportunity to reassure you that our hotel's team will continue to<br>
+              not just provide the highest standards of service and comfort you have been so accustomed to,<br>
+              bur exceeding your expectations will be our constant mission.Last but not least, while the<br>
+              entire our team remains at your disposal for any assistance or service you may need. <br>
+              Thanking you in anticipation of your patronage.</p>
+            </div>  
+            <div class=text>   
+              <img class=why src="images/re3.jpg">
+              <div class=my_text>
+                <h1 class=about2>Why us ?!</h1>
+                <p class=p2>Each room at our hotel is decorated with great taste. Designers'<br>
+                  solutions will impress you greatly.<br>
+                  Room service personnel is perfectly trained. Get away for the holidays,<br>
+                  choose our hotel. Each and every trifle is here for your comfort.<br>
+                  Our windows are overlooking the beautiful park. The spacious rooms are<br> 
+                  decorated with traditional wooden furniture.</p>
+              </div>
+            </div>
+     <!--end text--> 
+     <!-- start slider -->
+        <pic>
+          <img class=pic src="images/10.jpg">
+        </pic>
+        <div class=photos>
+          <img class=slider src=images/gallery9.jpg>
+          <img class=slider src=images/2.jpg>
+          <img class=slider src=images/gallery3.jpg>
+        </div>  
+     <!--end slider-->
+            
+          </div>     
+      </div>
+  </section>
+     
+     
+  <!-- your work finsh here -->
+      
+   <!-- start of footer -->
+   <footer>
+     <div class="container">
+       <div class="map">
+         <h3>Find us :</h3>
+         <!-- start of an embedded map -->
+         <div class="mapimg">
+           <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+           <div style='overflow:hidden;height:440px;width:440px;'>
+           <div id='gmap_canvas' style='height:440px;width:440px;'>
+           </div>
+           <div>
+           <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+           </div>
+           <div><small><a href="https://buywebsitetrafficreviews.org/trafficwebsites/">
+           real traffic source is your most trusted source of top quality and real web traffic
+           </a></small></div>
+           <style>
+           #gmap_canvas img{max-width:none!important;background:none!important}</style>
+           </div>
+           <script type='text/javascript'>
+           function init_map()
+           {var myOptions = {zoom:15,center:new google.maps.LatLng(30.056365797186047,31.229661492065354)
+           ,mapTypeId: google.maps.MapTypeId.ROADMAP};
+           map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+           marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(30.056365797186047,31.229661492065354)});
+           infowindow = new google.maps.InfoWindow({content:'<strong>Agaza</strong><br>Nile Corniche, Cairo, Egypt<br>'});
+           google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+           google.maps.event.addDomListener(window, 'load', init_map);
+           </script>
+           <!-- end of  an embedded map -->
+         </div>
+         <!-- end of map -->
+       </div>
+       <div class="contact">
+          <h3>Contact Us :</h3>
+          <form>
+           <input type="text" placeholder="Full Name">
+           <input type="text" placeholder="E-mail">
+           <input type="text" placeholder="Telephone">
+           <textarea placeholder="Message" style="height:150px ;"></textarea>
+           <button>SEND</button>
+           <div class="icons">
+             <i class="fa fa-facebook fa-2x face" aria-hidden="true"></i>
+             <i class="fa fa-youtube-play fa-2x you" aria-hidden="true"></i>
+             <i class="fa fa-google-plus-official fa-2x gog" aria-hidden="true"></i>
+             <i class="fa fa-twitter fa-2x twi" aria-hidden="true"></i>
+             <i class="fa fa-pinterest-p fa-2x in" aria-hidden="true"></i>
+           </div>
+          </form>
+       </div>
+     </div>
+   </footer>
+   <!-- end of footer -->
+   <!-- last section in the page -->
+   <div class="last">
+    <div class="container">
+     <div class="left">
+      <p>Copyright 	&copy; 2017 AGAZA. All right reserved.
+        <a href="../privacy policy/privacy policy.html" >Privacy Policy</a>
+      </p>
+     </div>   
+     <div class="right">
+         <span>
+          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+          <p>Nile Corniche, Cairo, Egypt</p>
+         </span>
+         <span>
+          <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+          <p>+022937652</p>
+         </span>
+         <span>
+          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          <p>agaza@try.org</p>
+        </span>
+       </div>
+    </div>  
+   </div>  
+
+
+   <script src="js/jquery-1.12.1.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/mine.js"></script>
+ </body>
+</html>
